@@ -1,8 +1,8 @@
-package com.shopping.portal.service.adminimplservice;
+package com.shopping.portal.service.admin.impl;
 
 import com.shopping.portal.entity.ConfigurationEntity;
 import com.shopping.portal.repository.ConfigurationRepository;
-import com.shopping.portal.service.adminbaseservice.ConfigurationService;
+import com.shopping.portal.service.admin.base.ConfigurationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
