@@ -8,13 +8,8 @@
 
 
 
-    <include file="/db/changelog/changes/1.List-of-categories-table-changelog.xml"/>
-    <include file="/db/changelog/changes/2.List-of-Items-table-changelog.xml"/>
-    <include file="/db/changelog/changes/3.Search-on-list-of-categories-tables-changelog.xml"/>
-    <include file="/db/changelog/changes/4.Search-on-list-of-Items-table-changelog.xml"/>
-    <include file="/db/changelog/changes/5.Order-tracking-for-order-table-changelog.xml"/>
-    <include file="/db/changelog/changes/6.Checkout-cart-table-changelog.xml"/>
-    <include file="/db/changelog/changes/7.Item-reviews-details-by-other-users-table-changelog.xml"/>
-    <include file="/db/changelog/changes/8.Add-review-for-item-table-changelog.xml"/>
+    <include file="/db/changelog/changes/1.create-and-insert-data-configuration-table-changelog.xml"/>
+
+
 
 </databaseChangeLog>
