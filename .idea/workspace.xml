@@ -3,11 +3,39 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="ALL" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:upstream" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="406cfe37-575c-463a-ad7a-0444cfadae47" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OnlineShoppingApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineShoppingApp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/changelog/changelog-master" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/changelog/changelog-master.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/changelog/changes/1.create-and-insert-configuration-table-changelog" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/changelog/changes/1.create-and-insert-configuration-table-changelog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,10 +156,26 @@
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="333" y="206" key="#com.intellij.fileTypes.FileTypeChooser/0.40.1366.728@0.40.1366.728" timestamp="1610505063541" />
-    <state x="213" y="59" key="DBNavigator.ProjectSettingsDialog" timestamp="1610504874658">
+    <state x="213" y="59" key="DBNavigator.ProjectSettingsDialog" timestamp="1610515959549">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state x="213" y="59" key="DBNavigator.ProjectSettingsDialog/0.40.1366.728@0.40.1366.728" timestamp="1610504874658" />
+    <state x="213" y="59" key="DBNavigator.ProjectSettingsDialog/0.40.1366.728@0.40.1366.728" timestamp="1610515959549" />
+    <state width="1367" height="186" key="GridCell.Tab.0.bottom" timestamp="1610520841794">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state width="1367" height="186" key="GridCell.Tab.0.bottom/0.40.1366.728@0.40.1366.728" timestamp="1610520841794" />
+    <state width="1367" height="186" key="GridCell.Tab.0.center" timestamp="1610520841794">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state width="1367" height="186" key="GridCell.Tab.0.center/0.40.1366.728@0.40.1366.728" timestamp="1610520841794" />
+    <state width="1367" height="186" key="GridCell.Tab.0.left" timestamp="1610520841794">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state width="1367" height="186" key="GridCell.Tab.0.left/0.40.1366.728@0.40.1366.728" timestamp="1610520841794" />
+    <state width="1367" height="186" key="GridCell.Tab.0.right" timestamp="1610520841794">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state width="1367" height="186" key="GridCell.Tab.0.right/0.40.1366.728@0.40.1366.728" timestamp="1610520841794" />
     <state x="184" y="49" key="SettingsEditor" timestamp="1610506013387">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
