@@ -8,6 +8,10 @@
 
 
     <include file="/db/changelog/changes/1.create-and-insert-configuration-table-changelog.xml"/>
+    <include file="/db/changelog/changes/2.create-order-cart-table-changelog.xml"/>
+    <include file="/db/changelog/changes/3.create-order-cart-info-table-changelog.xml"/>
+    <include file="/db/changelog/changes/4.create-delivery-cities-table-changelog.xml"/>
+    <include file="/db/changelog/changes/5.create-delivery-charges-table-changelog.xml"/>
 
 
 </databaseChangeLog>
