@@ -5,7 +5,7 @@
         xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
         xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd
     http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
-    <changeSet author="talha" id="9">
+    <changeSet author="talha" id="8">
 
         <sql>
 
@@ -20,9 +20,6 @@
             comment_date TIMESTAMP(0) NOT NULL,
             id INT NOT NULL DEFAULT NEXTVAL ('review_seq') , PRIMARY KEY (id)) ;
 
-            Insert into item_categories (username,comment,item_id,comment_date) values ('talha','good product',1,'2020-01-19 03:14:07');
-            Insert into item_categories (username,comment,item_id,comment_date) values ('inaam','bad product',2,'2019-01-19 03:14:07');
-            Insert into item_categories (username,comment,item_id,comment_date) values ('wasif','worst product',3,'2021-01-19 03:14:07');
 
         </sql>
 

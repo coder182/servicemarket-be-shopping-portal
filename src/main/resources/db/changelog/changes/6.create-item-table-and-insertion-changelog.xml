@@ -10,16 +10,21 @@
         <sql>
 
 
-            CREATE SEQUENCE cat_seq;
+            CREATE SEQUENCE item_seq;
 
-            CREATE TABLE item_categories (
+            CREATE TABLE item(
 
-            category_name VARCHAR(25) NOT NULL,
-            id INT NOT NULL DEFAULT NEXTVAL ('cat_seq') , PRIMARY KEY (id)) ;
+            item_name VARCHAR(100) NOT NULL,
+            category_id INT NOT NULL,
+            item_price DOUBLE PRECISION NOT NULL,
+            item_stock INT NOT NULL,
+            image_url VARCHAR(500) NOT NULL,
+            user_name VARCHAR(200) NOT NULL,
+            Is_blocked VARCHAR(25) NOT NULL,
+            details VARCHAR(1000) NOT NULL,
+            delivery_city_id INT NOT NULL,
+            id INT NOT NULL DEFAULT NEXTVAL ('item_seq') , PRIMARY KEY (id)) ;
 
-            Insert into item_categories (category_name) values ('Fruits');
-            Insert into item_categories (category_name) values ('Vegetables');
-            Insert into item_categories (category_name) values ('Cosmetics');
 
 
         </sql>
