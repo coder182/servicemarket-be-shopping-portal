@@ -9,6 +9,10 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OnlineShoppingApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineShoppingApp.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/changes/6.create-item-category-table-and-insertion-changelog.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/changes/7.create-item-table-and-insertion-changelog.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/changes/8.create-order-tracking-steps-table-insertion-changelog.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/changes/9.create-item-review-table-and-insertion-changelog.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,22 +150,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="213" y="19" key="DBNavigator.ProjectSettingsDialog/0.0.1366.728@0.0.1366.728" timestamp="1610791919338" />
-    <state width="661" height="472" key="GridCell.Tab.0.bottom" timestamp="1610791822991">
+    <state width="1323" height="2" key="GridCell.Tab.0.bottom" timestamp="1610827779345">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="661" height="472" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1610791822991" />
-    <state width="661" height="472" key="GridCell.Tab.0.center" timestamp="1610791822990">
+    <state width="1323" height="2" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1610827779345" />
+    <state width="1323" height="2" key="GridCell.Tab.0.center" timestamp="1610827779345">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="661" height="472" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1610791822990" />
-    <state width="661" height="472" key="GridCell.Tab.0.left" timestamp="1610791822990">
+    <state width="1323" height="2" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1610827779345" />
+    <state width="1323" height="2" key="GridCell.Tab.0.left" timestamp="1610827779345">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="661" height="472" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1610791822990" />
-    <state width="661" height="472" key="GridCell.Tab.0.right" timestamp="1610791822990">
+    <state width="1323" height="2" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1610827779345" />
+    <state width="1323" height="2" key="GridCell.Tab.0.right" timestamp="1610827779345">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="661" height="472" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1610791822990" />
+    <state width="1323" height="2" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1610827779345" />
     <state x="184" y="6" key="SettingsEditor" timestamp="1610791971086">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
