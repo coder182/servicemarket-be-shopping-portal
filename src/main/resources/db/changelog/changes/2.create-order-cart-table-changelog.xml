@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd
+    http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+    <changeSet author="Talha" id="2">
+
+        <sql>
+
+            CREATE SEQUENCE order_cart_seq;
+
+            CREATE TABLE order_cart (
+                                        id INT NOT NULL DEFAULT NEXTVAL ('order_cart_seq') ,
+                                        ref_id INT NOT NULL,
+                                        total_price INT NOT NULL,
+                                        order_tracking_id INT NOT NULL,
+                                        user_name VARCHAR(500),
+                                        PRIMARY KEY (id)
+              );
+
+
+        </sql>
+
+    </changeSet>
+</databaseChangeLog>
