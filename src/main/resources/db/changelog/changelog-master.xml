@@ -15,5 +15,7 @@
     <include file="/db/changelog/changes/6.create-item-table-and-insertion-changelog.xml"/>
     <include file="/db/changelog/changes/7.create-order-tracking-steps-table-insertion-changelog.xml"/>
     <include file="/db/changelog/changes/8.create-item-review-table-and-insertion-changelog.xml"/>
+    <include file="/db/changelog/changes/9.create-configuration-table-changelog.xml"/>
 
 </databaseChangeLog>
+
