@@ -31,6 +31,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OnlineShoppingApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineShoppingApp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/db/changelog/changelog-master.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/changelog/changelog-master.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +49,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="InvalidFacetManager">
+    <ignored-facets>
+      <facet id="OnlineShoppingApp/invalid/JPA" />
+      <facet id="OnlineShoppingApp/invalid/Spring" />
+      <facet id="OnlineShoppingApp/invalid/Web" />
+    </ignored-facets>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -70,13 +78,16 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Files share on zoom/studentRecord" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.shopping.portal.service.admin.impl" />
       <recent name="com.shopping.portal.service.admin.base" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Git Repositry\servicemarket-be-shopping-portal\src\main\java\com\shopping\portal" />
     </key>
   </component>
   <component name="RunManager" selected="Application.OnlineShoppingAppApplication">
@@ -148,37 +159,65 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="333" y="206" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1610505063541">
+    <state x="333" y="206" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1611118055939">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state x="333" y="206" key="#com.intellij.fileTypes.FileTypeChooser/0.40.1366.728@0.40.1366.728" timestamp="1610505063541" />
-    <state x="213" y="59" key="DBNavigator.ProjectSettingsDialog" timestamp="1610515959549">
+    <state x="333" y="206" key="#com.intellij.fileTypes.FileTypeChooser/0.40.1366.728@0.40.1366.728" timestamp="1611118055939" />
+    <state x="487" y="109" key="#com.intellij.ide.util.MemberChooser" timestamp="1611282459766">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state x="213" y="59" key="DBNavigator.ProjectSettingsDialog/0.40.1366.728@0.40.1366.728" timestamp="1610515959549" />
-    <state width="1367" height="186" key="GridCell.Tab.0.bottom" timestamp="1610520841794">
+    <state x="487" y="109" key="#com.intellij.ide.util.MemberChooser/0.40.1366.728@0.40.1366.728" timestamp="1611282459766" />
+    <state x="263" y="327" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1611167711202">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1367" height="186" key="GridCell.Tab.0.bottom/0.40.1366.728@0.40.1366.728" timestamp="1610520841794" />
-    <state width="1367" height="186" key="GridCell.Tab.0.center" timestamp="1610520841794">
+    <state x="263" y="327" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.40.1366.728@0.40.1366.728" timestamp="1611167711202" />
+    <state x="465" y="272" width="435" height="270" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1611255960180">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1367" height="186" key="GridCell.Tab.0.center/0.40.1366.728@0.40.1366.728" timestamp="1610520841794" />
-    <state width="1367" height="186" key="GridCell.Tab.0.left" timestamp="1610520841794">
+    <state x="465" y="272" width="435" height="270" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.40.1366.728@0.40.1366.728" timestamp="1611255960180" />
+    <state x="262" y="118" key="DBNavigator.DatasetFilterDialog" timestamp="1611314030003">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1367" height="186" key="GridCell.Tab.0.left/0.40.1366.728@0.40.1366.728" timestamp="1610520841794" />
-    <state width="1367" height="186" key="GridCell.Tab.0.right" timestamp="1610520841794">
+    <state x="262" y="118" key="DBNavigator.DatasetFilterDialog/0.40.1366.728@0.40.1366.728" timestamp="1611314030003" />
+    <state x="213" y="59" key="DBNavigator.ProjectSettingsDialog" timestamp="1611307521309">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1367" height="186" key="GridCell.Tab.0.right/0.40.1366.728@0.40.1366.728" timestamp="1610520841794" />
-    <state x="184" y="49" key="SettingsEditor" timestamp="1610506013387">
+    <state x="213" y="59" key="DBNavigator.ProjectSettingsDialog/0.40.1366.728@0.40.1366.728" timestamp="1611307521309" />
+    <state x="462" y="158" key="FileChooserDialogImpl" timestamp="1611316765241">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state x="184" y="49" key="SettingsEditor/0.40.1366.728@0.40.1366.728" timestamp="1610506013387" />
+    <state x="462" y="158" key="FileChooserDialogImpl/0.40.1366.728@0.40.1366.728" timestamp="1611316765241" />
+    <state width="1348" height="156" key="GridCell.Tab.0.bottom" timestamp="1611316235709">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state width="1348" height="156" key="GridCell.Tab.0.bottom/0.40.1366.728@0.40.1366.728" timestamp="1611316235709" />
+    <state width="1348" height="156" key="GridCell.Tab.0.center" timestamp="1611316235708">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state width="1348" height="156" key="GridCell.Tab.0.center/0.40.1366.728@0.40.1366.728" timestamp="1611316235708" />
+    <state width="1348" height="156" key="GridCell.Tab.0.left" timestamp="1611316235708">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state width="1348" height="156" key="GridCell.Tab.0.left/0.40.1366.728@0.40.1366.728" timestamp="1611316235708" />
+    <state width="1348" height="156" key="GridCell.Tab.0.right" timestamp="1611316235708">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state width="1348" height="156" key="GridCell.Tab.0.right/0.40.1366.728@0.40.1366.728" timestamp="1611316235708" />
+    <state x="212" y="58" key="Maven.ArtifactSearchDialog" timestamp="1611122139522">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="212" y="58" key="Maven.ArtifactSearchDialog/0.40.1366.728@0.40.1366.728" timestamp="1611122139522" />
+    <state x="184" y="49" key="SettingsEditor" timestamp="1611252684562">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="184" y="49" key="SettingsEditor/0.40.1366.728@0.40.1366.728" timestamp="1611252684562" />
     <state x="339" y="182" key="run.anything.popup" timestamp="1610739413174">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="339" y="182" key="run.anything.popup/0.40.1366.728@0.40.1366.728" timestamp="1610739413174" />
+    <state x="346" y="89" key="search.everywhere.popup" timestamp="1610994040454">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="346" y="89" key="search.everywhere.popup/0.40.1366.728@0.40.1366.728" timestamp="1610994040454" />
   </component>
 </project>
