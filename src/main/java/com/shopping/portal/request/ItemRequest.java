@@ -5,13 +5,8 @@ import lombok.Data;
 import javax.validation.constraints.NotBlank;
 
 @Data
-public class BaseRequest {
+public class ItemRequest extends BaseRequest{
 
     @NotBlank
-    private String transactionId;
-
-    @NotBlank
-    private String username;
-
-
+    private Integer cityId;
 }

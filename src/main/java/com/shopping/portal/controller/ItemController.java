@@ -1,7 +1,8 @@
 package com.shopping.portal.controller;
 
-import com.shopping.portal.business.base.CategoryItem;
+import com.shopping.portal.business.base.ItemBusiness;
 import com.shopping.portal.request.BaseRequest;
+import com.shopping.portal.request.ItemRequest;
 import com.shopping.portal.response.BaseResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -13,11 +14,11 @@ import org.springframework.web.bind.annotation.RestController;
 import javax.validation.Valid;
 
 @RestController
-@RequestMapping("/category")
-public class CategoryItemController {
+@RequestMapping("/item")
+public class ItemController {
 
     @Autowired
-    CategoryItem categoryBusiness;
+    ItemBusiness categoryBusiness;
 
     @PostMapping("/getCategories")
     public ResponseEntity<BaseResponse> getAllCategories(@Valid @RequestBody BaseRequest request){
@@ -27,12 +28,11 @@ public class CategoryItemController {
     }
 
     @PostMapping("/getAll")
-    public ResponseEntity<BaseResponse> getAllCategoriesWithItem(@Valid @RequestBody BaseRequest request){
+    public ResponseEntity<BaseResponse> getAllItemsWithCategories(@Valid @RequestBody ItemRequest request){
 
-        return ResponseEntity.ok(categoryBusiness.getJoinInformation(request));
+        return ResponseEntity.ok(categoryBusiness.getAllItemsAndCategories(request));
 
     }
-g
 
 
 }

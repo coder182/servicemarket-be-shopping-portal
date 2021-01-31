@@ -13,17 +13,18 @@ import java.util.List;
 @NoArgsConstructor
 @AllArgsConstructor
 @Table(name = "item_categories")
-public class CategoriesItem {
+public class ItemCategoriesEntity {
 
 
     @Id
-    private String id;
+    @GeneratedValue(strategy= GenerationType.IDENTITY)
+    private Integer id;
 
     @Column(name = "category_name")
     private String categoryName;
 
-    @OneToMany(targetEntity = ItemDetails.class,cascade = CascadeType.ALL)
+    @OneToMany(targetEntity = ItemEntity.class,cascade = CascadeType.ALL)
     @JoinColumn(name ="category_id",referencedColumnName = "id")
-    private List<ItemDetails> categories;
+    private List<ItemEntity> items;
 
 }

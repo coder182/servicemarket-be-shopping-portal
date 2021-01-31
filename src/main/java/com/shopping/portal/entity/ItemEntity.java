@@ -3,10 +3,7 @@ package com.shopping.portal.entity;
 
 import lombok.*;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Entity
 @Getter
@@ -15,18 +12,20 @@ import javax.persistence.Table;
 @NoArgsConstructor
 @AllArgsConstructor
 @Table(name = "item")
-public class ItemDetails {
+public class ItemEntity {
 
     @Id
+    @GeneratedValue(strategy= GenerationType.IDENTITY)
     private  String id;
 
     @NonNull
-    @Column(name = "category_id")
-    private String categoryId;
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "category_id")
+    private ItemCategoriesEntity category;
 
     @NonNull
     @Column(name = "delivery_city_id")
-    private  String deliveryCityId;
+    private  Integer deliveryCityId;
 
     @Column(name = "item_name")
     private String itemName;
